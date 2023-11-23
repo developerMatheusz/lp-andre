@@ -138,9 +138,13 @@ p {
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: -webkit-gradient(linear, left top, right top, from(#33c8c1), color-stop(50%, #119bd2), to(#33c8c1));
-  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#370040), color-stop(50%, #370040), to(#370040));
+  background: linear-gradient(to right, #370040 0%, #EB3377 50%, #EB3377 100%);
   background-size: 200%;
+}
+
+.hidden-div {
+  display: none;
 }
 
 .main-btn:hover {
@@ -575,7 +579,7 @@ p {
 }
 
 .navbar-nav .nav-item a:hover, .navbar-nav .nav-item a.active {
-  color: #fe7a7b;
+  color: #EB3377;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -590,8 +594,8 @@ p {
 
 .navbar-btn .main-btn {
   line-height: 45px;
-  background: -webkit-gradient(linear, left top, right top, from(#381240), color-stop(50%, #4d1857), to(#381240));
-  background: linear-gradient(to right, #381240 0%, rgb(130, 22, 71) 50%, #4d1857 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#370040), color-stop(50%, #370040), to(#370040));
+  background: linear-gradient(to right, #370040 0%, #EB3377 50%, #EB3377 100%);
   background-size: 200%;
 }
 
@@ -609,7 +613,7 @@ p {
 }
 
 .sticky .navbar-nav .nav-item a.active, .sticky .navbar-nav .nav-item a:hover {
-  color: #fe7a7b;
+  color: #EB3377;
 }
 
 /*===== HEADER HERO =====*/
@@ -825,9 +829,6 @@ p {
   }
 }
 
-.single-services .services-content .services-title a:hover {
-  color: #361CC1;
-}
 
 .single-services .services-content .text {
   margin-top: 30px;
@@ -859,7 +860,7 @@ p {
 }
 
 .single-services:hover {
-  border-color: #fe7a7b;
+  border-color: #EB3377;
 }
 
 .single-services:hover .services-icon .shape {
@@ -922,8 +923,8 @@ p {
 }
 
 .about-content .main-btn {
-  background: -webkit-gradient(linear, left top, right top, from(#381240), color-stop(50%, #ED8CB8), to(#381240));
-  background: linear-gradient(to right, #381240 0%, #ED8CB8 50%, #381240 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#370040), color-stop(50%, #370040), to(#370040));
+  background: linear-gradient(to right, #370040 0%, #EB3377 50%, #EB3377 100%);
   background-size: 200%;
   height: 50px;
   line-height: 50px;
@@ -1194,7 +1195,7 @@ p {
 }
 
 .subscribe-form input:focus {
-  border-color: #361CC1;
+  border-color: #EB3377;
 }
 
 .subscribe-form button {
@@ -1206,8 +1207,8 @@ p {
   border-bottom-right-radius: 5px;
   height: 65px;
   line-height: 65px;
-  background: -webkit-gradient(linear, left top, right top, from(#381240), color-stop(50%, #ED8CB8), to(#381240));
-  background: linear-gradient(to right, #381240 0%, #ED8CB8 50%, #381240 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#370040), color-stop(50%, #EB3377), to(#370040));
+  background: linear-gradient(to right, #370040 0%, #EB3377 50%, #370040 100%);
   background-size: 200%;
 }
 
@@ -1346,7 +1347,7 @@ p {
 }
 
 .link-wrapper .link li a:hover {
-  color: #381240;
+  color: #370040;
 }
 
 .footer-contact .contact {
