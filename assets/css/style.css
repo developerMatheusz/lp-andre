@@ -811,6 +811,13 @@ p {
   }
 }
 
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 .faq {
   margin-top: 40px;
 }
