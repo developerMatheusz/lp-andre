@@ -179,9 +179,12 @@ p {
 
 .main-btn2:hover {
   color: white;
-  background: #370040;
   background-position: right center;
-  border: 1px solid #EB3377;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
@@ -1445,15 +1448,8 @@ p {
   background-size: 200%;
   text-align: center;
   z-index: 99;
-  -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .whatsapp {
