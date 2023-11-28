@@ -178,8 +178,10 @@ p {
 }
 
 .main-btn2:hover {
-  color: #fff;
+  color: white;
+  background: #370040;
   background-position: right center;
+  border: 1px solid #EB3377;
 }
 
 @media (max-width: 767px) {
@@ -212,7 +214,7 @@ p {
 }
 
 .section-title .title {
-  font-size: 32px;
+  font-size: 25px;
   padding-top: 10px;
 }
 
@@ -691,7 +693,7 @@ p {
 }
 
 .header-hero-content .header-title {
-  font-size: 38px;
+  font-size: 32px;
   font-weight: 700;
   color: #fff;
 }
@@ -711,6 +713,12 @@ p {
 .header-hero-content .text {
   color: #fff;
   margin-top: 30px;
+}
+
+.text-header {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 15px;
 }
 
 .header-hero-content .main-btn {
@@ -832,7 +840,7 @@ p {
 }
 
 .services-icon img {
-  width: 100px;
+  width: 70px;
 }
 
 .single-services .services-icon i {
@@ -1090,18 +1098,18 @@ p {
 }
 
 .counter-wrapper .single-counter.counter-color-1::before {
-  background: -webkit-gradient(linear, left top, left bottom, from(#33c8c1), to(#119bd2));
-  background: linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EB3377), to(#370040));
+  background: linear-gradient(#EB3377 0%, #370040 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-2::before {
-  background: -webkit-gradient(linear, left top, left bottom, from(#381240), to(#ED8CB8));
-  background: linear-gradient(#381240 0%, #ED8CB8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#370040), to(#EB3377));
+  background: linear-gradient(#370040 0%, #EB3377 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-3::before {
-  background: -webkit-gradient(linear, left top, left bottom, from(#361cc1), to(#2e82ef));
-  background: linear-gradient(#361cc1 0%, #2e82ef 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EB3377), to(#370040));
+  background: linear-gradient(#EB3377 0%, #370040 100%);
 }
 
 .counter-wrapper .single-counter .count {
@@ -1423,16 +1431,17 @@ p {
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
+  padding: 5px;
   font-size: 20px;
   color: #fff;
   position: fixed;
   right: 20px;
   bottom: 20px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 5px;
-  background: -webkit-gradient(linear, left top, right top, from(#381240), color-stop(50%, #ED8CB8), to(#381240));
-  background: linear-gradient(to right, #381240 0%, #ED8CB8 50%, #381240 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#370040), color-stop(50%, #EB3377), to(#370040));
+  background: linear-gradient(to right, #370040 0%, #EB3377 50%, #370040 100%);
   background-size: 200%;
   text-align: center;
   z-index: 99;
@@ -1445,6 +1454,30 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.whatsapp {
+  padding: 8px;
+  font-size: 20px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 50px;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, right top, from(#370040), color-stop(50%, #EB3377), to(#370040));
+  background: linear-gradient(to right, #370040 0%, #EB3377 50%, #370040 100%);
+  background-size: 200%;
+  border-radius: 5px;
+  background-size: 200%;
+  text-align: center;
+  z-index: 98;
+  transition: all 0.3s ease-out 0s;
+}
+
+.whatsapp:hover {
+  color: #fff;
+  background-position: right center;
 }
 
 .back-to-top:hover {
