@@ -234,7 +234,7 @@ p {
 }
 
 .section-title .title span {
-  font-weight: 400;
+  font-weight: bold;
   display: contents;
 }
 
@@ -696,7 +696,7 @@ p {
 }
 
 .header-hero-content .header-title {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   color: #fff;
 }
