@@ -986,6 +986,17 @@ p {
   padding-bottom: 30px;
 }
 
+.service-content {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.service-content .dots {
+  position: absolute;
+  left: -30px;
+  bottom: 0;
+}
+
 .video-content .dots {
   position: absolute;
   left: -30px;
@@ -1037,7 +1048,7 @@ p {
 }
 
 .counter-wrapper {
-  padding-left: 70px;
+  padding-right: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
@@ -2022,6 +2033,10 @@ p {
 
 .pt-225 {
   padding-top: 225px;
+}
+
+.pt-300 {
+  padding-top: 300px;
 }
 
 .pb-5 {
